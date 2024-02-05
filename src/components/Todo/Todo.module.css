@@ -1,0 +1,35 @@
+.form_wrapper {
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px;
+    border-collapse: collapse;
+    width: 560px;
+    background: #000;
+}
+
+.form_wrapper td {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    color: white;
+
+}
+
+.form_wrapper th {
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    color: blue;
+}
+
+.form_wrapper button:last-child {
+    background: rgb(255, 0, 0);
+    transition: all 0.3s;
+    color: white;
+    border: 3px solid rgb(255, 0, 0);
+    width: 70%;
+    border-radius: 5px;
+}
+
+.form_wrapper button:last-child:hover {
+    background: black;
+    color: rgb(255, 0, 0);;
+    cursor: pointer;
+}

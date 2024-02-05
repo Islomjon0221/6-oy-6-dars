@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.admin {
+    width: 100%;
+    background: #0b0425;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin h3 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300px;
+    margin-left: 20px;
+}
+
+.admin button {
+    cursor: pointer;
+    background: #0800ff;
+    border: 3px solid #0800ff;
+    border-radius: 10px;
+    color: #FFF;
+    font-family: "Poppins";
+    padding: 5px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+
+.admin button:hover {
+    background: #0b0425;
+    border-color: #FFF;
+}
